@@ -1,0 +1,100 @@
+// Import page-specific CSS files here.
+
+body {
+    font-family: "Muli";
+    background-image: url(cocktailbackground.jpg);
+    background-repeat: no-repeat;
+
+    // background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    // height: 100%;
+    // width: 100%;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // // width: 100%;
+    // height: 100%;
+}
+
+.container {
+    max-width: 2500px;
+}
+
+// #background {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-image: url(cocktailphoto.jpg);
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: 100%;
+//     opacity: 0.5;
+//     filter:alpha(opacity=80);
+// }
+
+#name-heading {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: "Muli";
+        text-align: center;
+        font-size: 70px;
+        color: white;
+    }
+}
+
+.firstElement {
+    animation-delay: 1s;
+}
+
+.secondElement {
+    animation-delay: 2s;
+}
+
+.thirdElement {
+    animation-delay: 3s;
+}
+
+.fourthElement {
+    animation-delay: 4s;
+}
+
+.fifthElement {
+    animation-delay: 5s;
+}
+
+.icons {
+    width: 130px;
+    margin-top: 60px;
+}
+
+.icons-text {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+
+.upper-buffer {
+    padding-top: 60px;
+}
+
+#excel-photo {
+    height: 250px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-decoration: none; 
+}
+
+a {
+    color: white;
+}
