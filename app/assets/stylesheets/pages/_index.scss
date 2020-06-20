@@ -98,3 +98,18 @@ p {
 a {
     color: white;
 }
+
+.review {
+    width: 60%;
+    margin-top: 60px;
+    animation-delay: 6s;
+    h3{
+        font-size: 30px;
+        color: white;
+        font-style:italic;
+    }
+    h4 {
+        font-size: 25px;
+        color: white;
+    }
+}
