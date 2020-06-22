@@ -2,7 +2,8 @@
 
 body {
     font-family: "Muli";
-    background-image: url(cocktailbackground.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(mecocktails.jpg);
+    // background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-repeat: no-repeat;
 
     // background-size: contain;
@@ -19,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 2500px;
+    max-width: 1500px;
 }
 
 // #background {
